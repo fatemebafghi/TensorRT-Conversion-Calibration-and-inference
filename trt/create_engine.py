@@ -47,7 +47,7 @@ def build_engine(configs, model_path, data_path=None, quantize="int8"):
                 print('ERROR: Failed to parse the ONNX file.')
                 for error in range(parser.num_errors):
                     logger.error(parser.get_error(error))
-            parser.parse(f.read())
+   
 
         logger.info("ONNX parse ended")
         profile = builder.create_optimization_profile()
