@@ -102,4 +102,4 @@ by the `create_engine.py` script, and the `--test_path` argument specifies the p
 By default, the script will output the predicted label for each image and whether it was classified correctly or not. 
 At the end of the inference process, the script will output the accuracy and the duration of the inference process in seconds.
 
-
+you can also visit [TensorRT Conversion: Transforming Deep Learning Models for High-Speed Inference](https://medium.com/@fatemebfg/tensorrt-conversion-transforming-deep-learning-models-for-high-speed-inference-36548bdca46c) for more information
